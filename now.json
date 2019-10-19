@@ -2,10 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "*.php",
-      "use": "@juicyfx/php@canary",
-      "config": {
-        "composer": true
+      "src": "index.php",
+      "use": "now-php",
       }
     }
   ]
