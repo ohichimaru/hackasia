@@ -7,7 +7,7 @@ $json = file_get_contents('./sample.json');
 $data = json_decode($json,true);
 
 //Print data
-//echo($json_data);
+print_r($data);
 
 if (count($data->stand)) {
         // Open the table
@@ -18,8 +18,8 @@ if (count($data->stand)) {
 
             // Output a row
             echo "<tr>";
-            echo "<td>$stand->afko</td>";
-            echo "<td>$stand->positie</td>";
+            echo "<td>$stand->name</td>";
+            echo "<td>$stand->title</td>";
             echo "</tr>";
         }
 
