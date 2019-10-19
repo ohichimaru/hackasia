@@ -1,3 +1,16 @@
+<?php
+
+// Read JSON file
+$json = file_get_contents('./sample.json');
+
+//Decode JSON
+$json_data = json_decode($json,true);
+
+//Print data
+print_r($json_data);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
