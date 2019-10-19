@@ -3,4 +3,5 @@
     { "src": "*.php", "use": "@now/php" },
     { "src": "*.html", "use": "@now/static" }
   ]
+  "routes": [{ "src": "/sample", "dest": "/sample.json" }]
 }
