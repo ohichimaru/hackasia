@@ -1,5 +1,4 @@
-[
-    {
+{
         name: 'BBC News',
         title: '4,816,614 followers',
         profile: 'https://www.linkedin.com/company/1765/?miniCompanyUrn=urn%3Ali%3Afs_miniCompany%3A1765',
@@ -119,4 +118,3 @@
         profile: 'https://www.linkedin.com/in/myles-lane-2971598?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFyH1MBNdEIE6gvMx9sMyNac2kGZWwmaPc',
         post: 'Come for the banter and stay for the hot '
     }
-]
