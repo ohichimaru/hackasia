@@ -9,17 +9,17 @@ $data = json_decode($json,true);
 //Print data
 print_r($data);
 
-if (count($data->stand)) {
+if (count($data->test_data)) {
         // Open the table
         echo "<table>";
 
         // Cycle through the array
-        foreach ($data->stand as $idx => $stand) {
+        foreach ($data->test_data as $idx => $test_data) {
 
             // Output a row
             echo "<tr>";
-            echo "<td>$stand->name</td>";
-            echo "<td>$stand->title</td>";
+            echo "<td>$test_data->name</td>";
+            echo "<td>$test_data->title</td>";
             echo "</tr>";
         }
 
