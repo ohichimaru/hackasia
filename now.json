@@ -1,8 +1,13 @@
 {
+  "name": "hackasia",
+  "version": 2,
   "builds": [
-    { "src": "*.php", "use": "@now/php" },
-    { "src": "*.html", "use": "@now/static" }
+    { 
+      "src": "index.php", 
+      "use": "@now/php",
+      "config": {
+        "composer": true
+      }
+    }
   ]
-  
-  "routes": [{ "src": "/sample", "dest": "/sample.json" }]
 }
