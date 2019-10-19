@@ -7,7 +7,7 @@ $json = file_get_contents('./sample.json');
 $json_data = json_decode($json,true);
 
 //Print data
-print_r($json_data);
+echo($json_data);
 
 ?>
 <!--
