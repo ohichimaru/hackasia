@@ -1,12 +1,6 @@
 {
-  "version": 2,
   "builds": [
-    {
-      "src": "index.php",
-      "use": "now-php",
-          "config": {
-        "composer": true
-      }
-    }
+    { "src": "*.php", "use": "@now/php" },
+    { "src": "*.html", "use": "@now/static" }
   ]
 }
