@@ -1,7 +1,7 @@
 <?php
 
 // Read JSON file
-$json = file_get_contents('./sample.json');
+$json = file_get_contents('sample.json');
 
 //Decode JSON
 $data = json_decode($json,true);
